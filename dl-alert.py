@@ -6,6 +6,12 @@ from datetime import datetime
 import winsound
 
 location_arr = [
+    "206",
+    "201",
+    "200",
+    "198",
+    "194",
+    "187",
     "186",
     "189",
     "208",
@@ -25,6 +31,12 @@ location_arr = [
     "205",
 ]
 locationname_arr = [
+    "Rahway",
+    "North Bergen",
+    "Newark",
+    "Lodi",
+    "Edison",
+    "Bayonne",
     "Bakers Basin",
     "Camden",
     "Cardiff",
@@ -44,7 +56,7 @@ locationname_arr = [
     "West Deptford",
 ]
 base_url_link = "https://telegov.njportal.com/njmvc/AppointmentWizard/15/"
-required_months = ["July", "August"]
+required_months = ["July"]
 
 
 def beep():

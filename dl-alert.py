@@ -5,10 +5,10 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 import winsound
 
-location_arr = ['101','102','103','104','105','106','107','108','109','110','111','112','113','114','115','116','117','118','119','120','121','122','123']
-locationname_arr = ['Lawrenceville','Bayonne','North Cape May','Camden','Cardiff','Salem','Delanco','Eatontown','SouthPlainfield','Edison','Flemington','Toms River','Freehold','Lodi','Vineland','Newark','North Bergen','Wayne','Oakland','Paterson','Thorofare','Rahway','Randolph']
-base_url_link='https://telegov.njportal.com/njmvc/AppointmentWizard/11/'
-required_months = ['May','June']
+location_arr = ['186', '189', '208', '191', '192', '195', '197', '203', '204', '207', '188', '190', '193', '196', '199', '202', '205']
+locationname_arr = ['Bakers Basin','Camden','Cardiff','Delanco','Eatontown','Flemington','Freehold','Oakland','Paterson','Randolph','Rio Grande','Salem', 'South Plainfield', 'Toms River', 'Vineland', 'Wayne', 'West Deptford']
+base_url_link='https://telegov.njportal.com/njmvc/AppointmentWizard/15/'
+required_months = ['July','August']
 
 def beep():
     winsound.Beep(1500, 500)
